@@ -77,14 +77,14 @@ const searchName = (inputSearch, list) =>{
           } else {
              //count is increased by one for every hidden li.
             count++;
-            //The student names which don't match with the names typed by user in search input
-          //is hidden.
+          //   The student names which don't match with the names typed by user in search input
+          // is hidden.
             list[i].style.display = 'none';
            }
 
 
        } else {
-         //if nothing is typed in the search input, display all the list of students
+         //If nothing is typed in the search input, display all the list of students
          //and each of their li elements are stored in the 'unhiddenLis' array
          list[i].style.display = '';
 
