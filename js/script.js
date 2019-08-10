@@ -60,7 +60,7 @@ let newDiv = document.createElement('div');
    //array for storing the unhidden li elements
    let unhiddenLis = [];
 
-//funtcion that does the matching between the searched name and the names on the list of students
+//function that does the matching between the searched name and the names on the list of students
 const searchName = (inputSearch, list) =>{
    //refer to count when handling the resuls returned
    let count = 0;
